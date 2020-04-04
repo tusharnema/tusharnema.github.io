@@ -119,7 +119,7 @@ author:
       # url: "https://instagram.com/"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      # url: "https://linkedin.com/in/tusharnema" 
+      url: "https://linkedin.com/in/tusharnema" 
 
 # Site Footer
 footer:
