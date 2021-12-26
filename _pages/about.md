@@ -7,7 +7,8 @@ header:
 
 ### Who am I? ###
 
-I'm a Research Engineer at OLA Electric passionate about data science in general and deep learning in particular.Presently working in speech domain on various problems in speech such as Automatic Speech Recognition, Text to Speech, Wake Word detection, Speaker Verification and Recognition and also a lot of other stuff predominantly based on Natural Language Processing. 
+Hi there,Tushar here!
+I'm a Research Engineer at OLA Electric passionate about data science in general and deep learning in particular.Presently working in speech domain on various problems in speech such as Automatic Speech Recognition, Text to Speech, Wake Word detection, Speaker Verification and Recognition and also a lot of other stuff predominantly based on Natural Language Processing. I also love writing poems and raps which give me intrinsic satisfaction of delivering stories through a creative format.
 
 ### Graduation ###
 
