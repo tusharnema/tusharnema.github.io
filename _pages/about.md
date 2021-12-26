@@ -5,19 +5,19 @@ header:
   image: "/images/zakim.jpg"
 ---
 
-### Who am I?###
+### Who am I? ###
 
-I'm a Research Engineer at OLA Electric presently working in speech domain on various problems in speech such as Automatic Speech Recognition, Text to Speech, Wake Word detection, Speaker Verification and Recognition and also a lot of other stuff predominantly based on Natural Language Processing.
+I'm a Research Engineer at OLA Electric passionate about data science in general and deep learning in particular.Presently working in speech domain on various problems in speech such as Automatic Speech Recognition, Text to Speech, Wake Word detection, Speaker Verification and Recognition and also a lot of other stuff predominantly based on Natural Language Processing. 
 
-### Graduation###
+### Graduation ###
 
 I graduated from Indian Institute of Information Technology Kalyani where i took my undergraduate course as Computer Science and Engineering. 
 
-### Career###
+### Career ###
 
-I have previously worked at Zycus and Capillary Technologies before working at OLA.
+I have previously worked at Zycus and Capillary Technologies before working at OLA. 
 
-### ZYCUS | ASSOCIATE TECH LEAD AI###
+### ZYCUS | ASSOCIATE TECH LEAD AI ###
 
 - Working with Merlin AI Team which manages the procurement tools for Zycus.
 - Developed Fraud detection bot for duplicate Invoice detection and thus removing fraud invoices from datalake.
@@ -25,15 +25,15 @@ I have previously worked at Zycus and Capillary Technologies before working at O
 - Worked with software development and testing team members to design and develop robust solutions for functionality, scalability and performance.
 - Created customized applications to make critical predictions, automate reasoning and decisions, and calculate optimization algorithms.
 
-### Capillary Technologies | MACHINE LEARNING###
+### Capillary Technologies | MACHINE LEARNING ###
 
 - Developed an Automatic Speech Recognition System(ASR) from scratch.
 - Used Kaldi to build an ASR which aims at doing speech recognition on noisy speech.
-- Deployed NLP bots on the output of ASR,sentiment analysis,NER which added 50 percent value to
-the retail product. 
+- Deployed NLP bots on the output of ASR,sentiment analysis,NER.
+- Explored various tokenization approaches such as byte pair encoding, probablistic and unigram subword tokenization.
 - Deployed microservices for individual components of speech pipeline.
 
-### About This Site###
+### About This Site ###
 
 The main purposes of this website are listed here:
 
