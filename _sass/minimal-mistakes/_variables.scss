@@ -145,15 +145,15 @@ $medium: 768px !default;
 $medium-wide: 900px !default;
 $large: 1024px !default;
 $x-large: 1280px !default;
-$max-width: 1280px !default;
+$max-width: $large !default;
 
 /*
    Grid
    ========================================================================== */
 
-$right-sidebar-width-narrow: 300px !default;
-$right-sidebar-width: 30px !default;
-$right-sidebar-width-wide: 300px !default;
+$right-sidebar-width-narrow: 50px !default;
+$right-sidebar-width: 50px !default;
+$right-sidebar-width-wide: 50px !default;
 
 /*
    Other
