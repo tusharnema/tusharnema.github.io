@@ -28,7 +28,7 @@ We take a new approach to augmenting audio data, treating it as a visual problem
 
 *Augmenting the spectrogram itself, rather than the waveform data. Since the augmentation is applied directly to the input features of the network, it can be run online during training without significantly impacting training speed.![](/_posts/SpecAugment_Images/Aspose.Words.9d3e145b-62a3-4d02-b576-310dd496535c.002.png)*
 
-A waveform is typically converted into a visual representation (in our case, a log mel spectrogram) before being fed into a network.![](/_posts/SpecAugment_Images/Aspose.Words.9d3e145b-62a3-4d02-b576-310dd496535c.003.png)![](/_posts/SpecAugment_Images/Aspose.Words.9d3e145b-62a3-4d02-b576-310dd496535c.004.png)
+A waveform is typically converted into a visual representation (in our case, a log mel spectrogram) before being fed into a network.![](/_posts/SpecAugment_Images/Aspose.Words.9d3e145b-62a3-4d02-b576-310dd496535c.003.png)![](Aspose.Words.9d3e145b-62a3-4d02-b576-310dd496535c.004.png)
 
 ![](/_posts/SpecAugment_Images/Aspose.Words.9d3e145b-62a3-4d02-b576-310dd496535c.005.png) SpecAugment modifies the spectrogram by warping it in the time direction, masking blocks of consecutive frequency channels, and masking blocks of utterances in time. These augmentations have been chosen to help the network to be robust against deformations in the time direction, partial loss of frequency information and partial loss of small segments of speech of the input.![](/_posts/SpecAugment_Images/Aspose.Words.9d3e145b-62a3-4d02-b576-310dd496535c.006.png)
 
