@@ -1,99 +1,105 @@
-# brutalist-blog
+<div align="center">
 
-## Introduction
+  # Chirpy Jekyll Theme
 
-![brutalist-blog dark mode homepage](https://user-images.githubusercontent.com/13270895/131266947-65f2ae83-7d9e-48d7-8cd6-05a1d59df0ab.png)
-![brutalist-blog light mode homepage](https://user-images.githubusercontent.com/13270895/131266950-3a0e0eff-0b15-4f60-ba22-231bcd78fb0c.png)
-![brutalist-blog mobile homepages](https://user-images.githubusercontent.com/13270895/131266952-e245630a-9874-4bde-952c-3c63ebd745e0.png)
+  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
 
-brutalist-blog is a no frills, fully-responsive, hyper-minimalistic dark/light theme. The theme is heavily inspired by Mark Otto's personal site: https://markdotto.com/
+  [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy?color=brightgreen)](https://rubygems.org/gems/jekyll-theme-chirpy)
+  [![Build Status](https://github.com/cotes2020/jekyll-theme-chirpy/workflows/build/badge.svg?branch=master&event=push)](https://github.com/cotes2020/jekyll-theme-chirpy/actions?query=branch%3Amaster+event%3Apush)
+  [![Codacy Badge](https://app.codacy.com/project/badge/Grade/4e556876a3c54d5e8f2d2857c4f43894)](https://www.codacy.com/gh/cotes2020/jekyll-theme-chirpy/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=cotes2020/jekyll-theme-chirpy&amp;utm_campaign=Badge_Grade)
+  [![GitHub license](https://img.shields.io/github/license/cotes2020/jekyll-theme-chirpy.svg)](https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE)
+  [![996.icu](https://img.shields.io/badge/link-996.icu-%23FF4D5B.svg)](https://996.icu)
 
-Demo: https://andrewhwanpark.github.io/brutalist-blog/
+  [**Live Demo →**](https://cotes2020.github.io/chirpy-demo)
 
-My personal site that uses the same theme: https://andrewhwanpark.github.io/
+  [![Devices Mockup](https://cdn.jsdelivr.net/gh/cotes2020/chirpy-images@f4e0354b674f65a53b8917f0f786ed2956898cc1/commons/devices-mockup.png)](https://cotes2020.github.io/chirpy-demo)
 
-#### Features
+</div>
 
-- Automatically changes from dark/light modes depending on the OS settings.
-- Easy integration with Google Analytics.
-- Generates XML sitemap and RSS Atom feed.
-- jekyll-seo-tag to add metadata tags for search engines and social networks to better index and display your site's content.
-- Full markdown support: code blocks and tables are automatically bootstrap components.
+## Features
 
-![code blocks](https://user-images.githubusercontent.com/13270895/126393675-dacc65f1-7dd2-4651-ae2b-0e77eda7cd11.png)
+- Localized Layout
+- Dark/Light Theme Mode
+- Pinned Posts
+- Hierarchical Categories
+- Last Modified Date for Posts
+- Table of Contents
+- Auto-generated Related Posts
+- Syntax Highlighting
+- Mathematical Expressions
+- Mermaid Diagram & Flowchart
+- Disqus/Utterances Comments
+- Search
+- Atom Feeds
+- Google Analytics
+- GA Pageviews Reporting
+- SEO & Performance Optimization
 
-![tables](https://user-images.githubusercontent.com/13270895/126393680-7b7fae57-abd0-4843-a9a1-c4f334b5eaa4.png)
 
-## Installation
+## Quick Start
 
-Clone this repo:
+Before starting, please follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of `Ruby`, `RubyGems`, `Jekyll`, and `Bundler`.
 
-    $ git clone https://github.com/andrewhwanpark/brutalist-blog.git
+### Step 1. Creating a New Site
 
-If you haven't already, install bundler:
+Create a new repository from the [**Chirpy Starter**](https://github.com/cotes2020/chirpy-starter/generate) and name it `<GH_USERNAME>.github.io`, where `GH_USERNAME` represents your GitHub username.
 
-    $ gem install bundler
+### Step 2. Installing Dependencies
 
-And then execute:
+Before running for the first time, go to the root directory of your site, and install dependencies as follows:
 
-    $ bundle install
+```console
+$ bundle
+```
 
-Serve the site:
+### Step 3. Running Local Server
 
-    $ bundle exec jekyll serve
+Run the following command in the root directory of the site:
 
-# Installation with Github Pages
+```console
+$ bundle exec jekyll s
+```
 
-After cloning the repo, checkout to the gh-pages branch.
+Or run with Docker:
 
-    $ git checkout gh-pages && git pull
+```console
+$ docker run -it --rm \
+    --volume="$PWD:/srv/jekyll" \
+    -p 4000:4000 jekyll/jekyll \
+    jekyll serve
+```
 
-In the directory:
+After a while, navigate to the site at <http://localhost:4000>.
 
-    $ bundle install
+## Documentation
 
-For local development:
-
-    $ bundle exec jekyll serve
-
-After tweaking with it, you can publish the site. Under your repository name, click Settings.
-
-![tutorial](https://docs.github.com/assets/images/help/repository/repo-actions-settings.png)
-
-In the left sidebar, click Pages.
-
-![tutorial 2](https://docs.github.com/assets/images/help/pages/pages-tab.png)
-
-To see your published site, under "GitHub Pages", click your site's URL.
-
-![tutorial 3](https://docs.github.com/assets/images/help/pages/click-pages-url-to-preview.png)
-
-For a more detailed guide, visit this guide by Github: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll
-
-## Usage
-
-### First things first: \_config.yml
-
-First, you should change data in \_config.yml to the appropriate information such as your social links for the footer icons, avatar for navbar logo, title and name of the site, and more crucial information.
-
-### Adding content
-
-In order to add permanent pages, add in similar fashion to about.md and portfolio.md and add apppropriate data to \_data/navigation.yml.
-
-In order to add blog posts, add in similar fashion to \_posts/2021-07-16-this-post-demonstrates-post-content-styles.md.
-
-### Custom style changes
-
-If you wish to add custom styling through SCSS or CSS, you can add or edit \_sass/main.scss.
-
-### Custom domains with Github Pages
-
-Follow this simple guide: https://medium.com/@xiang_zhou/how-to-add-custom-domain-to-your-jekyll-blog-provided-that-you-built-your-site-using-github-6e1c8bf20afe
+For more details on usage, please refer to the tutorial on the [demo website](https://cotes2020.github.io/chirpy-demo/). At the same time, a copy of the tutorial is also available on the [wiki](https://github.com/cotes2020/jekyll-theme-chirpy/wiki). Note that the tutorial is based on the [latest tag](https://github.com/cotes2020/jekyll-theme-chirpy/tags), and the features of the default branch are usually ahead of the documentation.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/andrewhwanpark/brutalist-blog.
+Welcome to report bugs, improve code quality or submit a new feature. For more information, see [contributing guidelines](.github/CONTRIBUTING.md).
+
+## Credits
+
+This theme is mainly built with [Jekyll](https://jekyllrb.com/) ecosystem, [Bootstrap](https://getbootstrap.com/), [Font Awesome](https://fontawesome.com/) and some other wonderful tools (their copyright information can be found in the relevant files). The avatar and favicon design come from [Clipart Max](https://www.clipartmax.com/middle/m2i8b1m2K9Z5m2K9_ant-clipart-childrens-ant-cute/).
+
+:tada: Thanks to all the volunteers who contributed to this project, their GitHub IDs are on [this list](https://github.com/cotes2020/jekyll-theme-chirpy/graphs/contributors). Also, I won't forget those guys who submitted the issues or unmerged PR because they reported bugs, shared ideas, or inspired me to write more readable documentation.
+
+Last but not least, thank [JetBrains][jb] for providing the OSS development license.
+
+## Sponsoring
+
+If you like this theme or find it helpful, please consider sponsoring me, because it will encourage and help me better maintain the project, I will be very grateful!
+
+[![Ko-fi](https://img.shields.io/badge/-Buy%20Me%20a%20Coffee-ff5f5f?logo=ko-fi&logoColor=white)](https://ko-fi.com/coteschung)
+[![Wechat Pay](https://img.shields.io/badge/-Tip%20Me%20on%20WeChat-brightgreen?logo=wechat&logoColor=white)][cn-donation]
+[![Alipay](https://img.shields.io/badge/-Tip%20Me%20on%20Alipay-blue?logo=alipay&logoColor=white)][cn-donation]
 
 ## License
 
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+This work is published under [MIT](https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE) License.
+
+<!-- ReadMe links -->
+
+[jb]: https://www.jetbrains.com/?from=jekyll-theme-chirpy
+[cn-donation]: https://cotes.gitee.io/alipay-wechat-donation/
