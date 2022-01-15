@@ -1,12 +1,6 @@
-# main links
-main:
-  - title: "About"
-    url: /about/
-  - title: "Machine learning"
-    url: /machine-learning/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+- name: Home
+  link: /
+- name: About
+  link: /about/
+- name: Portfolio
+  link: /portfolio/
